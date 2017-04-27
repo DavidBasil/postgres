@@ -103,8 +103,7 @@ limit n
 offset n;**
 
 Order by:
-**select * from <table_name>  
-order by <column_name>;**
+**select * from <table_name> order by <column_name>;**
 
 Check the value in a range:
 **select * from <table_name>
