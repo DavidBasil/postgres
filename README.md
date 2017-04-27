@@ -36,7 +36,7 @@ Connect to database:
 **\c <database_name>**
 
 Create database:
-create database <database_name>;
+**create database <database_name>;**
 
 Delete database:
 **drop database <database_name>;**
@@ -90,66 +90,66 @@ Show all data:
 **select * from <table_name>;**
 
 Filter data:
-select * from <table_name> 
-where <column_name> = > < != AND OR <value>;
+**select * from <table_name> 
+where <column_name> = > < != AND OR <value>;**
 
 Limit rows:
-select * from <table_name>
-limit <row_number>;
+**select * from <table_name>
+limit <row_number>;**
 
 Offset rows:
-select * from <table_name>
+**select * from <table_name>
 limit n
-offset n;
+offset n;**
 
 Order by:
-select * from <table_name>  
-order by <column_name>;
+**select * from <table_name>  
+order by <column_name>;**
 
 Check the value in a range:
-select * from <table_name>
+**select * from <table_name>
 where <column_name>
-between <value> and <value>; 
+between <value> and <value>;** 
 
 Check the value in a list of values:
-select * from <table_name>
-where <column_name> in (value, valuej);
+**select * from <table_name>
+where <column_name> in (value, valuej);**
 
 Insert data into all columns:
-insert into <table name>
-values(<value>, <values>);
+**insert into <table name>
+values(<value>, <values>);**
 
 Insert data into specific columns:
-insert into <table_name> (<column_name>)
-values(<value>)
+**insert into <table_name> (<column_name>)
+values(<value>)**
 
 Edit data:
-update <table_name>
+**update <table_name>
 set <column_name> = <new_value>
-where <column_name> = <old_value>;
+where <column_name> = <old_value>;**
 
 Delete specific data:
-delete from <table_name>
-where <column_name> = <value>;
+**delete from <table_name>
+where <column_name> = <value>;**
 
 ---------------------------------------------
 
 Return the number of rows:
-select count(*)
-from <table_name>;
+**select count(*)
+from <table_name>;**
 
 Return the sum of values:
-select sum(<column_name>)
-from <table_name>;
+**select sum(<column_name>)
+from <table_name>;**
 
 Return the max of values:
-select max(<column_name>)
-from <table_name>;
+**select max(<column_name>)
+from <table_name>;**
 
 Return the min of values:
-select min(<column_name>)
-from <table_name>;
+**select min(<column_name>)
+from <table_name>;**
 
 Return the average of values:
-select avg(<column_name>)
-from <table_name>;
+**select avg(<column_name>)
+from <table_name>;**
