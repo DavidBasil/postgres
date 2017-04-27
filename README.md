@@ -13,19 +13,19 @@ Show current users:
 **\du**
 
 Create new user:
-**create user <user_name> with password <password>;**
+**create user <user_name> with password <new_password>;**
 
 Change user password:
-**alter role <user_name> with password <password>**;
+**alter role <user_name> with password <new_password>**;
 
 Delete user:
 drop user <user_name>;
 
 Grant all persmissions on database:
-grant all privileges on database <database_name> to <user>;
+grant all privileges on database <database_name> to <user_name>;
 
 Revome privileges from the user:
-revoke all privileges on database "<database_name>" from <username>;
+revoke all privileges on database "<database_name>" from <user_name>;
 
 ---------------------------------
 
