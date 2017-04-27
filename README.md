@@ -19,75 +19,75 @@ Change user password:
 **alter role <user_name> with password <new_password>**;
 
 Delete user:
-drop user <user_name>;
+**drop user <user_name>;**
 
 Grant all persmissions on database:
-grant all privileges on database <database_name> to <user_name>;
+**grant all privileges on database <database_name> to <user_name>;**
 
 Revome privileges from the user:
-revoke all privileges on database "<database_name>" from <user_name>;
+**revoke all privileges on database <database_name> from <user_name>;**
 
 ---------------------------------
 
 Show all databases:
-\l
+**\l**
 
 Connect to database:
-\c <database_name>
+**\c <database_name>**
 
 Create database:
 create database <database_name>;
 
 Delete database:
-drop database <database_name>;
+**drop database <database_name>;**
 
 Rename database:
-alter database <old_name>
-rename to <new_name>;
+**alter database <old_name>
+rename to <new_name>;**
 
 ---------------------------------------
 
 Show all tables:
-\dt
+**\dt**
 
 Show table's schema:
-\d <table_name>
+**\d <table_name>**
 
 Create table:
-create table <table_name>(
+**create table <table_name>(
     <column_name> type constraints
-);
+);**
 
 Rename table:
-alter table <old_name> 
-rename to <new_name>;
+**alter table <old_name> 
+rename to <new_name>;**
 
 Delete table:
-drop table <table_name>;
+**drop table <table_name>;**
 
 ----------------------------------------
 
 Add column:
-alter table <table_name>
-add <column_name> <type> <constraints>;
+**alter table <table_name>
+add <column_name> <type> <constraints>;**
 
 Rename column:
-alter table <table_name>
+**alter table <table_name>
 rename <column_name>
-to <new_name>;
+to <new_name>;**
 
 Update column:
-alter table <table_name>
-alter <column_name> type <data_type> <constraints>;
+**alter table <table_name>
+alter <column_name> type <data_type> <constraints>;**
 
 Delete column:
-alter table <table_name>
-drop <column_name>;
+**alter table <table_name>
+drop <column_name>;**
 
 -----------------------------------------------
 
 Show all data:
-select * from <table_name>;
+**select * from <table_name>;**
 
 Filter data:
 select * from <table_name> 
