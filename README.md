@@ -1,2 +1,0 @@
-# postgres
-PostreSQL cheat sheet
