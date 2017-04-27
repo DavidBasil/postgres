@@ -16,9 +16,9 @@ Create new user:
 **create user <user_name> with password <password>;**
 
 Change user password:
-alter role <user_name> with password <password>;
+**alter role <user_name> with password <password>**;
 
-Drop user:
+Delete user:
 drop user <user_name>;
 
 Grant all persmissions on database:
