@@ -115,8 +115,7 @@ Check the value in a list of values:
 where <column_name> in (value, valuej);**
 
 Insert data into all columns:
-**insert into <table name>
-values(<new_value>, <new_value>);**
+**insert into <table name> values(<new_value>, <new_value>);**
 
 Insert data into specific columns:
 **insert into <table_name> (<column_name>)
